@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>relationship predictor</title>
+</head>
+<body>
+    <h1>Realation predictor</h1>
+    <input type="text" name="" id="name" placeholder="Enter your name">
+    <button type="submit" id="submit" onclick="result()">CHECK</button>
+    <input type="text" name="" id="name" placeholder="Enter your cursh name" >
+    <button type="submit" id="submit" onclick="result()">CHECK</button>
+    <p id="result"></p>
+    <script>
+        function result(){
+            const name=document.getElementById('name');
+            const cursh=document.getElementById('cursh');
+             var marks=math.random()*100;
+             var result=document.getElementById('result');
+             result.innerHTML="probability of getting with relationship is"+" "+marks;
+             }
+
+        
+    </script>
+    
+</body>
+</html>
